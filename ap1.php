@@ -56,6 +56,20 @@
 
 // 8.
 
-    file_put_contents('fisier.txt','Continutul fisierului');
-    $continut = file_get_contents('fisier.txt');
-    echo $continut;
+//    file_put_contents('fisier.txt','Continutul fisierului');
+//    $continut = file_get_contents('fisier.txt');
+//    echo $continut;
+
+// 9.
+
+//    class ClasaSimpla {
+//        public $atribut = "valoare";
+//    }
+//
+//    $obiect = new ClasaSimpla();
+//    echo $obiect->atribut;
+
+// 10.
+
+    $sir = "Salutare";
+    echo strrev($sir);
